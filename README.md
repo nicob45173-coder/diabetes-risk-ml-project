@@ -11,7 +11,7 @@
 The goal of this project is to use machine learning technologies to identify individuals at high risk of developing diabetes. For the prediction, I used three different algorithms: logistic regression, decision tree, and random forest, and then compared the results to determine which of the three was most accurate.
 
 ## Project Structure
-
+'''text
 diabetes-risk-ml-project/
 │
 ├── data/
