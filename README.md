@@ -1,6 +1,6 @@
 # Diabetes Prediction using Machine Learning
 
-# Diabetes Prediction using Machine Learning
+
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
@@ -45,16 +45,27 @@ The dataset consists of several medical predictor variables and one target varia
 
 First i analysed the dataset to understand the relations of variables and to search possibly patterns.
 ![GlucoseVsBMI](./images/Glucose%20vs%20BMI.png)
+
 in this graphic we can see how a higher BMI glucose increases considerably.
+
 ![output](./images/output.png)
+
 Here is the outcome of dataset and show how many individual have or not diabetes.
+
 ![Histogram](./images/histogram%20of%20glucose%20before%20median.png)
+
 The histogram shows the range of glucose values ​​and their distribution within the dataset. For example, this graph shows that 60 people have a glucose level close to 100.
+
 ![Histogram](./images/histogram%20of%20glucose%20after%20median.png)
+
 This is the histogram after the clean of dataset using the median to delete wrong values like age = 0 or glucose = 0.
+
 ![Heatmap](./images/heatmap.png)
+
 This graph shows how closely the variables are related to each other.
+
 ![Age](./images/Age%20of%20individual%20with%20diabetes.png)
+
 This graph compares the age of people with and without diabetes. As we can see, the majority of people with diabetes are older.
 
 ## Data Preprocessing
